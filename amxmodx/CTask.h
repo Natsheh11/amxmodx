@@ -19,7 +19,7 @@ private:
 		// task settings
 		
 		CPluginMngr::CPlugin *m_pPlugin;
-		cell m_iId;
+		int m_iId;
 		int m_iFunc;
 		int m_iRepeat;
 		
@@ -30,7 +30,7 @@ private:
 		float m_fBase;		// for normal tasks, stores the interval, for the others, stores the amount of time before start / after end
 		int m_iParamLen;
 		
-		cell *m_pParams;
+		int *m_pParams;
 		bool m_bFree;
 
 		// execution
